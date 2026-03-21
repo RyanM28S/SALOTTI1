@@ -1,0 +1,51 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.circulo {
+    margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #9c03f4; 
+  border-radius: 50%; 
+  position: relative;
+  cursor: pointer;
+  animation: pulsar 2s infinite ease-out;
+  box-shadow: 0 0 15px #03e9f4;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.5); 
+    opacity: 0.3; 
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0; 
+  }
+}
+.parte1 {
+    display: flex;
+    background-color: #1A0F2E;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    width: 25%;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    box-shadow: 0 0 10px rgba(188, 19, 254, 0.5);
+}
+.parte1 h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: antiquewhite;
+}
