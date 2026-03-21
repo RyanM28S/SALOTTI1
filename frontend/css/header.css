@@ -9,20 +9,22 @@ header {
   display: flex;
   font-family: "Poppins", sans-serif;
   justify-content: space-between;
+  box-shadow:
+  0 1px 0 rgba(161,0,255,0.18),
+  0 10px 30px rgba(0,0,0,0.45);
 }
-hr {
-  color: #1a1a2e;
-}
+
 h1 {
   color: #ededed;
   font-weight: 500;
   text-align: center;
   display: block;
   margin: auto;
+  
 
 }
 
-span {
+.span-titulo {
   background: linear-gradient(90deg, #b026ff, #e040ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -109,6 +111,9 @@ span {
 }
 @keyframes animação {
   to {
-    transform: scale(1.1);
+   transform: translateY(-2px) scale(1.03);
   }
+}
+hr {
+  color: #2A0A3D;
 }
