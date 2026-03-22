@@ -272,7 +272,7 @@ body {
   margin: 0;
 }
 .parte3-titulo2 {
- color: #b100ff;
+  color: #b100ff;
   text-shadow:
     0 0 8px rgba(177, 0, 255, 0.35),
     0 0 22px rgba(177, 0, 255, 0.22),
@@ -307,7 +307,7 @@ body {
 }
 .caixa1-parte3 {
   width: 50%;
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 1rem;
   padding: 1rem;
   background: linear-gradient(
@@ -337,10 +337,10 @@ body {
 .caixa1-parte3 img,
 .caixa2-parte3 img {
   height: 60px;
-   transition: all 0.5s ease;
+  transition: all 0.5s ease;
   padding: 0.5rem;
- background: #090909;
-  border: 1px solid rgba(255,255,255,0.08);
+  background: #090909;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 0.5rem;
   margin: 1rem 0;
 }
@@ -361,7 +361,7 @@ body {
 .caixa2-parte3 {
   width: 40%;
   border-radius: 1rem;
-  padding: 1rem ;
+  padding: 1rem;
   background: linear-gradient(
     180deg,
     rgba(63, 0, 71, 0.95) 0%,
@@ -369,7 +369,7 @@ body {
   );
   height: 40%;
   margin-top: 3rem;
- border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   transition: all 0.35s ease;
 
   box-shadow:
@@ -385,10 +385,9 @@ body {
 }
 /*fim parte3*/
 .parte4 {
-   min-height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #050505;
-  
 }
 .caixa1-parte4 {
   width: 99%;
@@ -399,22 +398,27 @@ body {
   border-radius: 2rem;
   height: 100%;
   background: linear-gradient(
-  180deg,
-  rgba(63, 0, 71, 0.9),
-  rgba(25, 0, 30, 0.95)
-);
-box-shadow:
-    0 20px 60px rgba(0,0,0,0.45),      
-    0 0 40px rgba(161,0,255,0.12),       
-    inset 0 0 0 1px rgba(255,255,255,0.03);
+    180deg,
+    rgba(63, 0, 71, 0.9),
+    rgba(25, 0, 30, 0.95)
+  );
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.5),
+    0 0 50px rgba(161, 0, 255, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 
-border: 1px solid rgba(255,255,255,0.06);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 .caixa1-parte4 h1 {
   font-size: 7rem;
 }
 .caixa1-parte4 span {
-  color:#B100FF;
+  color: #b100ff;
+
+  text-shadow:
+    0 0 6px rgba(177, 0, 255, 0.35),
+    0 0 18px rgba(177, 0, 255, 0.2),
+    0 0 35px rgba(177, 0, 255, 0.1);
 }
 .caixa1-parte4 p {
   color: #a1a1aa;
@@ -430,19 +434,27 @@ border: 1px solid rgba(255,255,255,0.06);
   display: block;
   margin: 3rem auto;
   padding: 2rem;
-  background: linear-gradient(180deg, #C000FF 0%, #8A00FF 100%);
+  background: linear-gradient(180deg, #c000ff 0%, #8a00ff 100%);
   font-size: 2rem;
-  border-radius: 1rem ;
+  border-radius: 1rem;
   color: #ffff;
   box-shadow:
-  0 0 12px rgba(177,0,255,0.5),
-  0 0 30px rgba(177,0,255,0.3),
-  0 10px 30px rgba(90,0,140,0.4);
-  transition: all 1s ease-in-out;
+    0 0 10px rgba(177, 0, 255, 0.45),
+    0 0 25px rgba(177, 0, 255, 0.25),
+    0 8px 25px rgba(90, 0, 140, 0.35);
+  transition: all 0.3s ease;
+animation: pulso 2.5s infinite;
+}
+@keyframes pulso {
+  0% { box-shadow: 0 0 10px rgba(177,0,255,0.3); }
+  50% { box-shadow: 0 0 25px rgba(177,0,255,0.5); }
+  100% { box-shadow: 0 0 10px rgba(177,0,255,0.3); }
 }
 .caixa1-parte4 button:hover {
+  transform: translateY(-2px) scale(1.03);
+
   box-shadow:
-    0 0 18px rgba(177,0,255,0.7),
-    0 0 40px rgba(177,0,255,0.4),
-    0 15px 40px rgba(90,0,140,0.5);
+    0 0 18px rgba(177, 0, 255, 0.6),
+    0 0 40px rgba(177, 0, 255, 0.35),
+    0 12px 35px rgba(90, 0, 140, 0.45);
 }
