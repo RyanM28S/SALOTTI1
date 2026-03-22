@@ -6,10 +6,50 @@
 
 /*main*/
 
+main {
+  padding: 0 0.7%;
+  background: linear-gradient(180deg, #0b0b10, #0a0a0f);
+}
+
 .comeco_conteiner {
+  padding: 1rem 4rem;
+  background: linear-gradient(135deg, #3B0F3F, #3B0F3F, #220A2F);
+  border: 1px solid rgba(84, 48, 115, 0.42);
+  box-shadow:
+    0 0 20px rgba(168, 0, 255, 0.2),
+    inset 0 0 10px rgba(255, 0, 255, 0.1);
+  width: 99%;
+  border-radius: 0 0 1rem 2rem;
+  height: 10rem;
+  width: auto;
+  color: white;
+}
+
+.comeco_bemvindo {
   display: flex;
-  background: linear-gradient(135deg, #1A071F, #2A0E2F);
-  width: 90%;
+  gap: 2rem;
+
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+.bemvindo_imagem {
+  background: linear-gradient(135deg, #9738FF);
+  height: 5rem;
+  width: 5rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0 0 #9738FF59;
+  
+  img {
+    height: 3rem;
+    width: auto;
+  }
+  
+
+}
+.bemvindo_texto {
+  gap: 10rem;
 }
 
 /*fim main*/
