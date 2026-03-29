@@ -1,7 +1,7 @@
 footer {
   padding: 1rem;
-  background: linear-gradient(180deg, #2a0826, #1f061c);
-  border-top: 1px solid #4a0d4f;
+  background: #1A0018;
+  border-top: 1px solid rgba(255, 0, 255, 0.15);
   font-family: "Poppins", sans-serif;
 }
 
