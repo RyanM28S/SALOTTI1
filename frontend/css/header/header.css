@@ -10,13 +10,15 @@ header {
   min-width: 100%;
   font-family: "Poppins", sans-serif;
   position: fixed;
-  z-index: 1000;
+  z-index: 1;
   justify-content: space-between;
   box-shadow:
     0 1px 0 rgba(161, 0, 255, 0.18),
     0 10px 30px rgba(0, 0, 0, 0.45);
 }
-
+main{
+  padding-top: 100px;
+}
 h1 {
   color: #ededed;
   font-family: "Syne", sans-serif;

@@ -79,6 +79,7 @@ body {
     auto;
 }
 .titulo-parte-cima {
+  margin-top: 50px;
   font-size: 10rem;
   text-shadow:
     0 0 10px rgba(161, 0, 255, 0.6),
