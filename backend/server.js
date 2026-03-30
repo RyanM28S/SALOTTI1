@@ -5,6 +5,7 @@ import rotaMensagem from "./routes/mensagem.js"
 import rotaProfessores from "./routes/professores.js"
 import rotaAlunos from "./routes/alunos.js"
 import rotaBuscar from "./routes/buscar.js"
+import rotaProf from './routes/professoresB.js'
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.use(rotaMensagem);
 app.use(rotaProfessores);
 app.use(rotaAlunos);
 app.use(rotaBuscar);
+app.use(rotaProf);
 
 
 app.listen(3000, () => {

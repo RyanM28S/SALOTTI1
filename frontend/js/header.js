@@ -8,6 +8,7 @@ naoh.addEventListener('click', () => {
 })
 professoresh.addEventListener('click', () => {
     window.location.href = "professores.html"
+    link.href = "../css/professores.css"
 })
 categoriash.addEventListener('click', () => {
     // window.location.href = ".html"

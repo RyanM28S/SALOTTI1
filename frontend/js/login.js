@@ -53,6 +53,7 @@ function renderLogin() {
 
                     if (data.token) {
                         localStorage.setItem("token", data.token);
+                        localStorage.setItem("nome", data.nome);
                         p.textContent = "login realizado";
                         setTimeout(() => {
                             window.location.href = "../html/interface.html"

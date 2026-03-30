@@ -31,7 +31,7 @@ async function login(req, res) {
             segredo,
             { expiresIn: "1h" }
         )
-        return res.status(200).json({ message: "login valido", token: token });
+        return res.status(200).json({ message: "login valido", token: token, nome: usuario.nome });
 
     } catch (error) {
         console.log(error)
