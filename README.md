@@ -1,78 +1,92 @@
-# 🎓 SALOTTI OPINA
+# 🎓 Salotti Opina
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
-![HTML5](https://img.shields.io/badge/HTML5-Frontend-orange)
-![License](https://img.shields.io/badge/license-Educacional-lightgrey)
-
-> Plataforma escolar de feedbacks, avaliações e comunicação institucional.
-
-O **Salotti Opina** é um sistema desenvolvido com foco em melhorar a comunicação entre alunos, professores e instituição escolar, oferecendo um ambiente moderno para avaliações, opiniões e acompanhamento interno.
+<p align="center">
+  <strong>Plataforma inteligente de feedback institucional escolar</strong><br>
+  Desenvolvida para conectar alunos, professores e administração através de avaliações organizadas, modernas e eficientes.
+</p>
 
 ---
 
-# 📌 Objetivo do Projeto
+## 📌 Sobre o Projeto
 
-Criar uma plataforma digital onde alunos possam expressar opiniões sobre professores e setores da escola, promovendo melhorias e fortalecendo o relacionamento institucional.
+O **Salotti Opina** é um sistema web criado para permitir que estudantes avaliem setores da escola, professores e serviços internos de maneira prática e segura.
 
----
-
-# 🚀 Funcionalidades
-
-## 👨‍🎓 Área do Aluno
-- Login e cadastro
-- Perfil do usuário
-- Avaliação de professores
-- Avaliação de setores
-- Envio de feedbacks
-- Navegação intuitiva
-
-## 👨‍🏫 Área Institucional
-- Visualização de mensagens
-- Consulta de professores
-- Organização de informações
-- Acompanhamento interno
-
-## 💻 Sistema
-- Front-end moderno
-- Back-end estruturado
-- Integração com banco de dados
-- Rotas separadas por função
+A proposta da plataforma é fortalecer a comunicação institucional e gerar melhorias reais com base na opinião dos alunos.
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+## 🚀 Principais Funcionalidades
 
-## Front-end
-- HTML5
-- CSS3
-- JavaScript
-
-## Back-end
-- Node.js
-- Express.js
-- JWT
-- Bcrypt
-- CORS
-- Cookie-parser
-
-## Banco de Dados
-- MySQL
+✅ Sistema de Login e Cadastro  
+✅ Área do Usuário  
+✅ Painel Administrativo  
+✅ Avaliação de Setores Escolares  
+✅ Avaliação de Professores  
+✅ Categorias Organizadas  
+✅ Interface Moderna e Responsiva  
+✅ Feedback em Tempo Real  
 
 ---
 
-# 📂 Estrutura do Projeto
+# 📸 Demonstração do Sistema
 
-```bash
-SALOTTI1/
-├── backend/
-│   ├── rotas/
-│   ├── server.js
-│   └── package.json
-│
-└── frontend/
-    ├── css/
-    ├── html/
-    ├── img/
-    └── js/
+## 🏠 Página Inicial
+
+<p align="center">
+  <img src="inicio.png" width="900">
+</p>
+
+---
+
+## 🔐 Tela de Login
+
+<p align="center">
+  <img src="login.png" width="900">
+</p>
+
+---
+
+## 🏫 Setores da Escola
+
+<p align="center">
+  <img src="setores.png" width="900">
+</p>
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<p align="center">
+
+HTML5 • CSS3 • JavaScript • PHP • MySQL • Git • GitHub
+
+</p>
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Criar uma plataforma digital moderna para avaliações institucionais, ajudando a escola a identificar melhorias e aproximando estudantes da gestão escolar.
+
+---
+
+## 👨‍💻 Equipe de Desenvolvimento
+
+- Ryan M28S  
+- Gustavo Henrique  
+- Equipe do Projeto  
+
+---
+
+## 📌 Status do Projeto
+
+🚧 Em desenvolvimento
+
+---
+
+## 🔗 Repositório Oficial
+
+[GitHub - SALOTTI1](https://github.com/RyanM28S/SALOTTI1)
+
+---
+```0
