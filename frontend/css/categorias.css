@@ -6,7 +6,7 @@
   }
   
   main {
-    padding: 0 2% 0 2%;
+    padding: 10% 2% 0 2%;
     background: linear-gradient(180deg, #0b0b10, #0a0a0f);
   }
   
@@ -16,7 +16,6 @@
     flex-direction: column;
     padding: 7rem 0 3rem 0;
     gap: 0.8rem;
-  
     img {
     background-color: #7F00FF;
     background: linear-gradient(to bottom right, #7F00FF, #BC00FF);
